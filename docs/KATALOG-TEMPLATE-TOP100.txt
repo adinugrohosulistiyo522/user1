@@ -1,0 +1,14 @@
+KLIKTIVA TOP100 — KATALOG KATEGORI
+
+Affiliator — 20 template: ID 1–10, 21–25, dan 66–70.
+Content Creator — 10 template: ID 11–20.
+UMKM / Small Business — 10 template: ID 26–35.
+Edukasi / Pendidikan — 10 template: ID 36–45.
+Marketing / Agency — 10 template: ID 46–55.
+Usaha Kuliner — 10 template: ID 56–65.
+Komunitas dan Organisasi — 10 template: ID 71–80.
+Entertainment — 10 template: ID 81–90.
+Jasa Profesional — 10 template: ID 91–100.
+
+Total: 100 template, 9 kategori. ID template lama dipertahankan; penambahan bersifat append-only.
+Template menggunakan master data pelanggan yang sama; foto/nama di katalog template adalah visual desain/preview, bukan seed data produksi tiap pelanggan.

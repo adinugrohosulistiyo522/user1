@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kliktiva-top100-customer-001",
+  "main": "src/index.js",
+  "compatibility_date": "2026-01-15",
+  "assets": {
+    "directory": "./public/",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api",
+      "/api/*",
+      "/admin",
+      "/admin/*",
+      "/admin.html",
+      "/top100-admin",
+      "/top100-admin.html"
+    ]
+  },
+  "observability": {
+    "enabled": true
+  }
+}

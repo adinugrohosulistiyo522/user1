@@ -1,0 +1,16 @@
+{
+  "name": "kliktiva-top100-complete-workers-deployment",
+  "version": "1.1.0-top100-workers",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "devDependencies": { "wrangler": "4.68.0" },
+  "scripts": {
+    "build": "node -e \"console.log('No build step: Worker + static assets')\"",
+    "check": "node scripts/check-workers.mjs",
+    "test": "node --test test/worker.test.mjs",
+    "check:all": "npm run check && npm test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
